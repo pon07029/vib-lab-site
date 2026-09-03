@@ -796,63 +796,27 @@ body { font-size: 16px; overflow-x: clip; }
 }
 
 @media (min-width: 901px) {
-  .mentors-viewport,
-  .alumni-viewport {
-    height: 100svh;
-    min-height: 100svh;
-    box-sizing: border-box;
-    overflow: hidden;
-  }
-
   .mentors-viewport { align-items: stretch; }
   .mentors-section {
-    height: 100%;
-    min-height: 0;
     display: grid;
     grid-template-columns: minmax(260px,.72fr) minmax(0,2.28fr);
-    grid-template-rows: auto 1fr;
     column-gap: clamp(40px,7vw,110px);
-    overflow: hidden;
+    align-items: start;
+  }
+  .mentors-section__sidebar {
+    position: sticky;
+    top: 104px;
+    align-self: start;
   }
   .mentors-section__header {
-    grid-column: 1;
-    grid-row: 1;
     display: block;
-    align-self: start;
-    margin: 0;
+    margin: 0 0 26px;
   }
   .mentors-section__header > p { margin-top: 26px; }
   .mentors-section__filters {
-    grid-column: 1;
-    grid-row: 2;
-    align-content: start;
-    align-self: start;
-    margin: 28px 0 0;
+    margin-bottom: 0;
   }
-  .mentor-card-grid {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-    min-height: 0;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
-    padding-right: 8px;
-  }
-  .mentor-card-grid--stable { min-height: 0; }
-
-  .alumni-archive {
-    height: 100%;
-    min-height: 0;
-    overflow: hidden;
-  }
-  .alumni-archive__intro { position: static; }
-  .alumni-archive__list {
-    min-height: 0;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
-    padding-right: 8px;
-  }
+  .mentor-card-grid { grid-column: 2; }
 }
 
 .console-section--overview { min-height: 1080px; padding: 74px 80px 70px; }

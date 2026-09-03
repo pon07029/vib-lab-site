@@ -40,31 +40,27 @@ export function MentorsSection({ people }: MentorsSectionProps) {
 
   return (
     <div className="mentors-section">
-      <div className="mentors-section__header">
-        <div><p className="eyebrow">PEOPLE DIRECTORY</p><h2>Lab members</h2></div>
-        <p>Different fields, shared questions. Filter the directory by working role.</p>
+      <div className="mentors-section__sidebar">
+        <div className="mentors-section__header">
+          <div><p className="eyebrow">PEOPLE DIRECTORY</p><h2>Lab members</h2></div>
+          <p>Different fields, shared questions. Filter the directory by working role.</p>
+        </div>
+        <div className="mentors-section__filters" aria-label="People role filters">
+          {["All", ...categories].map((category) => (
+            <button
+              key={category}
+              type="button"
+              aria-label={`${category} members`}
+              aria-pressed={activeCategory === category}
+              className={cn(activeCategory === category && "is-active")}
+              onClick={() => setActiveCategory(category)}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
       </div>
-      <div className="mentors-section__filters" aria-label="People role filters">
-        {["All", ...categories].map((category) => (
-          <button
-            key={category}
-            type="button"
-            aria-label={`${category} members`}
-            aria-pressed={activeCategory === category}
-            className={cn(activeCategory === category && "is-active")}
-            onClick={() => setActiveCategory(category)}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
-      <motion.div
-        layout
-        className="mentor-card-grid mentor-card-grid--stable"
-        role="region"
-        aria-label="Lab members directory"
-        tabIndex={0}
-      >
+      <motion.div layout className="mentor-card-grid mentor-card-grid--stable">
         <AnimatePresence mode="popLayout">
           {filteredPeople.map((person) => <MentorCard key={person.id} person={person} />)}
         </AnimatePresence>

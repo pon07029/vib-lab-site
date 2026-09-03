@@ -51,16 +51,18 @@ it("keeps filtered cards at their natural height", () => {
   expect(css).toMatch(/\.mentor-card-grid--stable\s*\{[^}]*align-content:\s*start;/);
 });
 
-it("keeps People section controls fixed while only their lists scroll on desktop", () => {
+it("keeps the People headings sticky while their lists move with the page", () => {
   render(<PeoplePage />);
 
-  expect(screen.getByRole("region", { name: "Lab members directory" })).toHaveAttribute("tabindex", "0");
-  expect(screen.getByRole("list", { name: "Alumni records" })).toHaveAttribute("tabindex", "0");
+  const sidebar = document.querySelector(".mentors-section__sidebar");
+  expect(sidebar).toContainElement(screen.getByRole("heading", { name: "Lab members" }));
+  expect(sidebar).toContainElement(screen.getByRole("button", { name: "All members" }));
 
   const css = readFileSync(join(process.cwd(), "app/globals.css"), "utf8");
-  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.mentors-section\s*\{[^}]*grid-template-columns:/);
-  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.mentor-card-grid\s*\{[^}]*overflow-y:\s*auto;/);
-  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.alumni-archive__list\s*\{[^}]*overflow-y:\s*auto;/);
+  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.mentors-section__sidebar\s*\{[^}]*position:\s*sticky;[^}]*top:\s*104px;/);
+  expect(css).toMatch(/\.alumni-archive__intro\s*\{[^}]*position:\s*sticky;[^}]*top:\s*104px;/);
+  expect(css).not.toMatch(/\.mentor-card-grid\s*\{[^}]*overflow-y:\s*auto;/);
+  expect(css).not.toMatch(/\.alumni-archive__list\s*\{[^}]*overflow-y:\s*auto;/);
 });
 
 it("keeps the Alumni archive readable across desktop and mobile layouts", () => {
