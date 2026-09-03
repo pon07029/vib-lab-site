@@ -10,7 +10,7 @@ import { alumni, people } from "../content/people";
 it("uses the mentor-card directory in the second People viewport", () => {
   render(<PeoplePage />);
 
-  expect(document.querySelectorAll(".viewport-section")).toHaveLength(3);
+  expect(document.querySelectorAll(".viewport-section")).toHaveLength(4);
   expect(screen.getByRole("heading", { name: "Lab members" })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: "All members" })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: "Researcher members" })).toBeInTheDocument();
@@ -22,7 +22,7 @@ it("renders Alumni as a separate archive between the directory and Join", () => 
   render(<PeoplePage />);
 
   const viewports = Array.from(document.querySelectorAll(".viewport-section"));
-  const archive = screen.getByRole("region", { name: "Alumni archive" });
+  const archive = screen.getByRole("region", { name: "Alumniarchive" });
   const archiveScreen = within(archive);
 
   expect(viewports).toHaveLength(4);
@@ -30,9 +30,10 @@ it("renders Alumni as a separate archive between the directory and Join", () => 
   expect(alumni).toHaveLength(11);
   expect(archiveScreen.getByText("11 RECORDS")).toBeInTheDocument();
   alumni.forEach((alumnus, index) => {
-    expect(archiveScreen.getByText(alumnus.name)).toBeInTheDocument();
-    expect(archiveScreen.getByText(alumnus.credential, { exact: false })).toBeInTheDocument();
-    expect(archiveScreen.getByText(String(index + 1).padStart(2, "0"))).toBeInTheDocument();
+    const row = archiveScreen.getByText(alumnus.name).closest("li")!;
+    const rowScreen = within(row);
+    expect(rowScreen.getByText(alumnus.credential, { exact: false })).toBeInTheDocument();
+    expect(rowScreen.getByText(String(index + 1).padStart(2, "0"))).toBeInTheDocument();
   });
 });
 
@@ -48,6 +49,18 @@ it("keeps filtered cards at their natural height", () => {
   const css = readFileSync(join(process.cwd(), "app/globals.css"), "utf8");
 
   expect(css).toMatch(/\.mentor-card-grid--stable\s*\{[^}]*align-content:\s*start;/);
+});
+
+it("keeps People section controls fixed while only their lists scroll on desktop", () => {
+  render(<PeoplePage />);
+
+  expect(screen.getByRole("region", { name: "Lab members directory" })).toHaveAttribute("tabindex", "0");
+  expect(screen.getByRole("list", { name: "Alumni records" })).toHaveAttribute("tabindex", "0");
+
+  const css = readFileSync(join(process.cwd(), "app/globals.css"), "utf8");
+  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.mentors-section\s*\{[^}]*grid-template-columns:/);
+  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.mentor-card-grid\s*\{[^}]*overflow-y:\s*auto;/);
+  expect(css).toMatch(/@media\s*\(min-width:\s*901px\)[\s\S]*?\.alumni-archive__list\s*\{[^}]*overflow-y:\s*auto;/);
 });
 
 it("keeps the Alumni archive readable across desktop and mobile layouts", () => {

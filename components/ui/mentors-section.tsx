@@ -58,7 +58,13 @@ export function MentorsSection({ people }: MentorsSectionProps) {
           </button>
         ))}
       </div>
-      <motion.div layout className="mentor-card-grid mentor-card-grid--stable">
+      <motion.div
+        layout
+        className="mentor-card-grid mentor-card-grid--stable"
+        role="region"
+        aria-label="Lab members directory"
+        tabIndex={0}
+      >
         <AnimatePresence mode="popLayout">
           {filteredPeople.map((person) => <MentorCard key={person.id} person={person} />)}
         </AnimatePresence>

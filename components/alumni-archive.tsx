@@ -11,7 +11,7 @@ export function AlumniArchive({ alumni }: AlumniArchiveProps) {
         <p>The people who carried VIB Lab&apos;s questions forward. A distinct record of the lab&apos;s research community.</p>
         <p className="alumni-archive__count">{String(alumni.length).padStart(2, "0")} RECORDS</p>
       </div>
-      <ol className="alumni-archive__list">
+      <ol className="alumni-archive__list" aria-label="Alumni records" tabIndex={0}>
         {alumni.map((alumnus, index) => (
           <li key={alumnus.id}>
             <span>{String(index + 1).padStart(2, "0")}</span>
