@@ -8,9 +8,9 @@ import { publications } from "../content/publications";
 it("advances and wraps publication groups", async () => {
   const user = userEvent.setup();
   render(<PublicationCarousel publications={publications} />);
-  expect(screen.getByRole("status")).toHaveTextContent("01 / 03");
+  expect(screen.getByRole("status")).toHaveTextContent("01 / 24");
   await user.click(screen.getByRole("button", { name: "Previous publications" }));
-  expect(screen.getByRole("status")).toHaveTextContent("03 / 03");
+  expect(screen.getByRole("status")).toHaveTextContent("24 / 24");
   await user.click(screen.getByRole("button", { name: "Next publications" }));
-  expect(screen.getByRole("status")).toHaveTextContent("01 / 03");
+  expect(screen.getByRole("status")).toHaveTextContent("01 / 24");
 });

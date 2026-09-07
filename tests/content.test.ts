@@ -6,6 +6,7 @@ import { join } from "node:path";
 import { galleryItems } from "../content/gallery";
 import { people } from "../content/people";
 import { projects } from "../content/projects";
+import { publications } from "../content/publications";
 import { site } from "../content/site";
 
 describe("VIB Lab content", () => {
@@ -44,4 +45,15 @@ it("uses every provided conference and daily-life photograph in the gallery", ()
     expect(item.image).toMatch(/^\/gallery\/(conference|daily)\/.+\.jpg$/);
     expect(existsSync(join(process.cwd(), "public", item.image))).toBe(true);
   });
+});
+
+it("loads the provided 47-record publication archive", () => {
+  expect(publications).toHaveLength(47);
+  expect(publications[0]).toMatchObject({
+    year: 2025,
+    type: "Article",
+    doi: "10.1186/s12864-025-11362-x",
+  });
+  expect(publications[0].title).toContain("Alzheimer’s disease");
+  expect(publications[0].authors).toContain("Younghee Lee");
 });

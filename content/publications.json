@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "doi-10-1186-s12864-025-11362-x",
+    "title": "Interaction of genetic variants and methylation in transcript-level expression regulation in Alzheimer’s disease by multi-omics data analysis",
+    "authors": [
+      "Seonggyun Han",
+      "Soo-ah Cho",
+      "Wongyung Choi",
+      "Karen Eilbeck",
+      "Hilary Coon",
+      "Kwangsik Nho",
+      "Younghee Lee"
+    ],
+    "year": 2025,
+    "date": "2025-02-20",
+    "journal": "BMC Genomics",
+    "type": "article",
+    "doi": "10.1186/s12864-025-11362-x",
+    "pmid": "39979805",
+    "url": "https://doi.org/10.1186/s12864-025-11362-x",
+    "keywords": [
+      "Biology",
+      "Proteomics",
+      "Disease",
+      "Computational biology",
+      "DNA microarray",
+      "Omics"
+    ]
+  },
+  {
+    "id": "doi-10-1038-s41467-025-56848-0",
+    "title": "Alternatively spliced NFKB1 transcripts enriched in Andean Aymara modulate inflammation, HIF and hemoglobin",
+    "authors": [
+      "Jihyun Song",
+      "Seonggyun Han",
+      "Ricardo Amaru",
+      "Lucie Lanikova",
+      "Teddy Quispe",
+      "Dongwook Kim",
+      "Jacob E. Crawford",
+      "Soo Jin Kim",
+      "Younghee Lee",
+      "Josef T. Prchal"
+    ],
+    "year": 2025,
+    "date": "2025-02-19",
+    "journal": "Nature Communications",
+    "type": "article",
+    "doi": "10.1038/s41467-025-56848-0",
+    "pmid": "39971917",
+    "url": "https://doi.org/10.1038/s41467-025-56848-0",
+    "keywords": [
+      "Biology",
+      "RNA splicing",
+      "Gene",
+      "Inflammation",
+      "Alternative splicing",
+      "Transcriptome"
+    ]
+  },
+  {
+    "id": "doi-10-1038-s41598-024-79970-3",
+    "title": "Genetic insights and conservation strategies for Amur tigers in Southwest Primorye Russia",
+    "authors": [
+      "Daecheol Jeong",
+      "Jee Yun Hyun",
+      "Taisiia Marchenkova",
+      "Dina Matiukhina",
+      "Sujoo Cho",
+      "Jangmi Lee",
+      "Dong Youn Kim",
+      "Ying Li",
+      "Yury Darman",
+      "Mi‐Sook Min",
+      "Victor Bardyuk",
+      "Young‐Hee Lee",
+      "Puneet Pandey",
+      "Hang Lee"
+    ],
+    "year": 2024,
+    "date": "2024-12-02",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "doi": "10.1038/s41598-024-79970-3",
+    "pmid": "39622961",
+    "url": "https://doi.org/10.1038/s41598-024-79970-3",
+    "keywords": [
+      "Genetic diversity",
+      "Population",
+      "Tiger",
+      "Inbreeding",
+      "Biology",
+      "Effective population size"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s13040-024-00366-0",
+    "title": "A machine learning approach using conditional normalizing flow to address extreme class imbalance problems in personal health records",
+    "authors": [
+      "Yeongmin Kim",
+      "Wongyung Choi",
+      "Woo‐Jeong Choi",
+      "G.T.C. Ko",
+      "Seonggyun Han",
+      "Hwan‐Cheol Kim",
+      "Dokyoon Kim",
+      "Dong‐Gi Lee",
+      "Dong Wook Shin",
+      "Younghee Lee"
+    ],
+    "year": 2024,
+    "date": "2024-05-25",
+    "journal": "BioData Mining",
+    "type": "article",
+    "doi": "10.1186/s13040-024-00366-0",
+    "pmid": "38796471",
+    "url": "https://doi.org/10.1186/s13040-024-00366-0",
+    "keywords": [
+      "Computer science",
+      "Machine learning",
+      "Artificial intelligence",
+      "Data science",
+      "Data mining"
+    ]
+  },
+  {
+    "id": "doi-10-1101-gr-278253-123",
+    "title": "Differences in molecular sampling and data processing explain variation among single-cell and single-nucleus RNA-seq experiments",
+    "authors": [
+      "John Chamberlin",
+      "Younghee Lee",
+      "Gábor Marth",
+      "Aaron R. Quinlan"
+    ],
+    "year": 2024,
+    "date": "2024-02-01",
+    "journal": "Genome Research",
+    "type": "preprint",
+    "doi": "10.1101/gr.278253.123",
+    "pmid": "38355308",
+    "url": "https://doi.org/10.1101/gr.278253.123",
+    "keywords": [
+      "Biology",
+      "Nucleus",
+      "RNA-Seq",
+      "RNA",
+      "Genetics",
+      "Computational biology"
+    ]
+  },
+  {
+    "id": "doi-10-1002-alz-068340",
+    "title": "Brain regional alternative splicing and clinical traits in Alzheimer’s disease",
+    "authors": [
+      "Sara Kim",
+      "Seonggyun Han",
+      "Kwangsik Nho",
+      "YOUNGHEE LEE",
+      "InSong Koh"
+    ],
+    "year": 2023,
+    "date": "2023-06-01",
+    "journal": "Alzheimer s & Dementia",
+    "type": "article",
+    "doi": "10.1002/alz.068340",
+    "pmid": "",
+    "url": "https://doi.org/10.1002/alz.068340",
+    "keywords": [
+      "Exon",
+      "Parahippocampal gyrus",
+      "Middle frontal gyrus",
+      "Superior frontal gyrus",
+      "RNA splicing",
+      "Alternative splicing"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s13073-023-01160-z",
+    "title": "TREM2 splice isoforms generate soluble TREM2 species that disrupt long-term potentiation",
+    "authors": [
+      "Miguel Moutinho",
+      "Israel Coronel",
+      "Andy P. Tsai",
+      "Gonzalo Viana Di Prisco",
+      "Taylor Pennington",
+      "Brady K. Atwood",
+      "Shweta S. Puntambekar",
+      "Daniel C. Smith",
+      "Pablo Martínez",
+      "Seonggyun Han",
+      "Younghee Lee",
+      "Cristian A. Lasagna‐Reeves",
+      "Bruce T. Lamb",
+      "Stephanie J. Bissel",
+      "Kwangsik Nho",
+      "Gary E. Landreth"
+    ],
+    "year": 2023,
+    "date": "2023-02-20",
+    "journal": "Genome Medicine",
+    "type": "article",
+    "doi": "10.1186/s13073-023-01160-z",
+    "pmid": "36805764",
+    "url": "https://doi.org/10.1186/s13073-023-01160-z",
+    "keywords": [
+      "TREM2",
+      "Cell biology",
+      "Transmembrane protein",
+      "Alternative splicing",
+      "Biology",
+      "Receptor"
+    ]
+  },
+  {
+    "id": "doi-10-1002-alz-068333",
+    "title": "Interplay of genetic and epigenetic factors in regulating immune‐related pathways in Alzheimer’s disease",
+    "authors": [
+      "Seonggyun Han",
+      "Kwangsik Nho",
+      "YOUNGHEE LEE"
+    ],
+    "year": 2022,
+    "date": "2022-12-01",
+    "journal": "Alzheimer s & Dementia",
+    "type": "article",
+    "doi": "10.1002/alz.068333",
+    "pmid": "",
+    "url": "https://doi.org/10.1002/alz.068333",
+    "keywords": [
+      "Epigenetics",
+      "DNA methylation",
+      "Single-nucleotide polymorphism",
+      "Biology",
+      "Genetics",
+      "Expression quantitative trait loci"
+    ]
+  },
+  {
+    "id": "doi-10-5213-inj-2244258-129",
+    "title": "Brain Region-Dependent Alternative Splicing of Alzheimer Disease (AD)-Risk Genes Is Associated With Neuropathological Features in AD",
+    "authors": [
+      "Sara Kim",
+      "Seonggyun Han",
+      "Soo-ah Cho",
+      "Kwangsik Nho",
+      "InSong Koh",
+      "Younghee Lee"
+    ],
+    "year": 2022,
+    "date": "2022-11-29",
+    "journal": "International Neurourology Journal",
+    "type": "article",
+    "doi": "10.5213/inj.2244258.129",
+    "pmid": "36503215",
+    "url": "https://doi.org/10.5213/inj.2244258.129",
+    "keywords": [
+      "Medicine",
+      "Disease",
+      "Alzheimer's disease",
+      "Alternative splicing",
+      "Neuroscience",
+      "Gene"
+    ]
+  },
+  {
+    "id": "doi-10-3389-fmicb-2021-726231",
+    "title": "Production of SARS-CoV-2 N Protein-Specific Monoclonal Antibody and Its Application in an ELISA-Based Detection System and Targeting the Interaction Between the Spike C-Terminal Domain and N Protein",
+    "authors": [
+      "Dongbum Kim",
+      "Jin-Soo Kim",
+      "Sangkyu Park",
+      "Minyoung Kim",
+      "Kyeongbin Baek",
+      "Mijeong Kang",
+      "Jun-Kyu Choi",
+      "Sony Maharjan",
+      "Madhav Akauliya",
+      "Younghee Lee",
+      "Hyung‐Joo Kwon"
+    ],
+    "year": 2021,
+    "date": "2021-12-07",
+    "journal": "Frontiers in Microbiology",
+    "type": "article",
+    "doi": "10.3389/fmicb.2021.726231",
+    "pmid": "34950112",
+    "url": "https://doi.org/10.3389/fmicb.2021.726231",
+    "keywords": [
+      "Vero cell",
+      "Monoclonal antibody",
+      "Virology",
+      "Coronavirus",
+      "Fusion protein",
+      "Biology"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12864-021-08052-9",
+    "title": "Epigenetic interplay between methylation and miRNA in bladder cancer: focus on isoform expression",
+    "authors": [
+      "Manu Shivakumar",
+      "Seonggyun Han",
+      "Younghee Lee",
+      "Dokyoon Kim"
+    ],
+    "year": 2021,
+    "date": "2021-10-21",
+    "journal": "BMC Genomics",
+    "type": "article",
+    "doi": "10.1186/s12864-021-08052-9",
+    "pmid": "34674656",
+    "url": "https://doi.org/10.1186/s12864-021-08052-9",
+    "keywords": [
+      "Biology",
+      "microRNA",
+      "Epigenetics",
+      "Gene isoform",
+      "Methylation",
+      "DNA methylation"
+    ]
+  },
+  {
+    "id": "doi-10-3390-ijms22189865",
+    "title": "Alternative Splicing Regulation of Low-Frequency Genetic Variants in Exon 2 of TREM2 in Alzheimer’s Disease by Splicing-Based Aggregation",
+    "authors": [
+      "Seonggyun Han",
+      "Yirang Na",
+      "InSong Koh",
+      "Kwangsik Nho",
+      "Younghee Lee"
+    ],
+    "year": 2021,
+    "date": "2021-09-13",
+    "journal": "International Journal of Molecular Sciences",
+    "type": "article",
+    "doi": "10.3390/ijms22189865",
+    "pmid": "34576031",
+    "url": "https://doi.org/10.3390/ijms22189865",
+    "keywords": [
+      "TREM2",
+      "Exon",
+      "RNA splicing",
+      "Alternative splicing",
+      "Genetics",
+      "Disease"
+    ]
+  },
+  {
+    "id": "doi-10-1038-s41540-021-00177-7",
+    "title": "ADAS-viewer: web-based application for integrative analysis of multi-omics data in Alzheimer’s disease",
+    "authors": [
+      "Seonggyun Han",
+      "Jaehang Shin",
+      "Hyeim Jung",
+      "Jane Ryu",
+      "Habtamu Minassie",
+      "Kwangsik Nho",
+      "InSong Koh",
+      "Younghee Lee"
+    ],
+    "year": 2021,
+    "date": "2021-03-19",
+    "journal": "npj Systems Biology and Applications",
+    "type": "article",
+    "doi": "10.1038/s41540-021-00177-7",
+    "pmid": "33741983",
+    "url": "https://doi.org/10.1038/s41540-021-00177-7",
+    "keywords": [
+      "Parahippocampal gyrus",
+      "Dorsolateral prefrontal cortex",
+      "Neuroscience",
+      "Neuroimaging",
+      "Omics",
+      "Prefrontal cortex"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-020-00836-4",
+    "title": "Differential alternative splicing between hepatocellular carcinoma with normal and elevated serum alpha-fetoprotein",
+    "authors": [
+      "Young‐Joo Jin",
+      "Habtamu Minassie Aycheh",
+      "Seonggyun Han",
+      "John Chamberlin",
+      "Jaehang Shin",
+      "Seyoun Byun",
+      "Younghee Lee"
+    ],
+    "year": 2020,
+    "date": "2020-12-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-020-00836-4",
+    "pmid": "33371894",
+    "url": "https://doi.org/10.1186/s12920-020-00836-4",
+    "keywords": [
+      "HCCS",
+      "Hepatocellular carcinoma",
+      "Biology",
+      "Alpha-fetoprotein",
+      "Gene",
+      "Exon"
+    ]
+  },
+  {
+    "id": "doi-10-1038-s41598-020-74540-9",
+    "title": "Transcriptome analysis of alternative splicing in the pathogen life cycle in human foreskin fibroblasts infected with Trypanosoma cruzi",
+    "authors": [
+      "Hyeim Jung",
+      "Seonggyun Han",
+      "Younghee Lee"
+    ],
+    "year": 2020,
+    "date": "2020-10-15",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "doi": "10.1038/s41598-020-74540-9",
+    "pmid": "33060827",
+    "url": "https://doi.org/10.1038/s41598-020-74540-9",
+    "keywords": [
+      "Biology",
+      "Transcriptome",
+      "Trypanosoma cruzi",
+      "Exon",
+      "Genetics",
+      "Alternative splicing"
+    ]
+  },
+  {
+    "id": "doi-10-3390-ijms21197079",
+    "title": "Alternative Splicing Regulation of an Alzheimer’s Risk Variant in CLU",
+    "authors": [
+      "Seonggyun Han",
+      "Kwangsik Nho",
+      "Younghee Lee"
+    ],
+    "year": 2020,
+    "date": "2020-09-25",
+    "journal": "International Journal of Molecular Sciences",
+    "type": "article",
+    "doi": "10.3390/ijms21197079",
+    "pmid": "32992916",
+    "url": "https://doi.org/10.3390/ijms21197079",
+    "keywords": [
+      "Clusterin",
+      "Exon",
+      "Alternative splicing",
+      "Biology",
+      "Intron",
+      "RNA splicing"
+    ]
+  },
+  {
+    "id": "doi-10-2196-18387",
+    "title": "Personal Health Information Inference Using Machine Learning on RNA Expression Data from Patients With Cancer: Algorithm Validation Study",
+    "authors": [
+      "Solbi Kweon",
+      "Jeong Hoon Lee",
+      "Younghee Lee",
+      "Yu Rang Park"
+    ],
+    "year": 2020,
+    "date": "2020-07-06",
+    "journal": "Journal of Medical Internet Research",
+    "type": "article",
+    "doi": "10.2196/18387",
+    "pmid": "32773372",
+    "url": "https://doi.org/10.2196/18387",
+    "keywords": [
+      "Cancer",
+      "Machine learning",
+      "Artificial intelligence",
+      "Computer science",
+      "Algorithm",
+      "Receiver operating characteristic"
+    ]
+  },
+  {
+    "id": "doi-10-1177-2325967120927480",
+    "title": "Gene Expression in Torn Rotator Cuff Tendons Determined by RNA Sequencing",
+    "authors": [
+      "Robert Z. Tashjian",
+      "Ian C. Lock",
+      "Erin K. Granger",
+      "Yangliang Wang",
+      "Younghee Lee",
+      "Peter N. Chalmers",
+      "Kevin B. Jones"
+    ],
+    "year": 2020,
+    "date": "2020-06-01",
+    "journal": "Orthopaedic Journal of Sports Medicine",
+    "type": "article",
+    "doi": "10.1177/2325967120927480",
+    "pmid": "32647732",
+    "url": "https://doi.org/10.1177/2325967120927480",
+    "keywords": [
+      "Rotator cuff",
+      "Medicine",
+      "Tendon",
+      "Gene expression",
+      "Rotator cuff injury"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-020-0680-7",
+    "title": "The landscape of alternative splicing in HIV-1 infected CD4 T-cells",
+    "authors": [
+      "Seyoun Byun",
+      "Seonggyun Han",
+      "Yue Zheng",
+      "Vicente Planelles",
+      "Younghee Lee"
+    ],
+    "year": 2020,
+    "date": "2020-04-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-020-0680-7",
+    "pmid": "32241262",
+    "url": "https://doi.org/10.1186/s12920-020-0680-7",
+    "keywords": [
+      "Biology",
+      "Exon",
+      "Gene",
+      "RNA splicing",
+      "Alternative splicing",
+      "Cell cycle"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-019-0635-z",
+    "title": "Differential alternative splicing regulation among hepatocellular carcinoma with different risk factors",
+    "authors": [
+      "Young‐Joo Jin",
+      "Seyoun Byun",
+      "Seonggyun Han",
+      "John Chamberlin",
+      "Dong‐Wook Kim",
+      "Min Jung Kim",
+      "Younghee Lee"
+    ],
+    "year": 2019,
+    "date": "2019-12-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-019-0635-z",
+    "pmid": "31856847",
+    "url": "https://doi.org/10.1186/s12920-019-0635-z",
+    "keywords": [
+      "Hepatocellular carcinoma",
+      "Hepatitis B virus",
+      "Biology",
+      "Hepatitis C virus",
+      "Cancer research",
+      "RNA splicing"
+    ]
+  },
+  {
+    "id": "doi-10-1038-s41598-019-53445-2",
+    "title": "An exome-wide rare variant analysis of Korean men identifies three novel genes predisposing to prostate cancer",
+    "authors": [
+      "Jong Jin Oh",
+      "Manu Shivakumar",
+      "Jason E. Miller",
+      "Shefali S. Verma",
+      "Hakmin Lee",
+      "Sung Kyu Hong",
+      "Sang Eun Lee",
+      "Younghee Lee",
+      "Soo Ji Lee",
+      "Joohon Sung",
+      "Dokyoon Kim",
+      "Seok‐Soo Byun"
+    ],
+    "year": 2019,
+    "date": "2019-11-20",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "doi": "10.1038/s41598-019-53445-2",
+    "pmid": "31748686",
+    "url": "https://doi.org/10.1038/s41598-019-53445-2",
+    "keywords": [
+      "Prostate cancer",
+      "Exome sequencing",
+      "Exome",
+      "Biology",
+      "Gene",
+      "Genetics"
+    ]
+  },
+  {
+    "id": "doi-10-1016-j-jalz-2019-06-3155",
+    "title": "P3‐127: SEX‐SPECIFIC ALTERNATIVE SPLICING REGULATION OF ALZHEIMER'S RISK VARIANTS IN <i>CLU</i>",
+    "authors": [
+      "Seonggyun Han",
+      "Kwangsik Nho",
+      "Younghee Lee"
+    ],
+    "year": 2019,
+    "date": "2019-07-01",
+    "journal": "Alzheimer s & Dementia",
+    "type": "article",
+    "doi": "10.1016/j.jalz.2019.06.3155",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/j.jalz.2019.06.3155",
+    "keywords": [
+      "Exon",
+      "Alternative splicing",
+      "Clusterin",
+      "RNA splicing",
+      "Single-nucleotide polymorphism",
+      "Intron"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-018-0453-8",
+    "title": "Identification of exon skipping events associated with Alzheimer’s disease in the human hippocampus",
+    "authors": [
+      "Seonggyun Han",
+      "Jason E. Miller",
+      "Seyoun Byun",
+      "Dokyoon Kim",
+      "Shannon L. Risacher",
+      "Andrew J. Saykin",
+      "Younghee Lee",
+      "Kwangsik Nho"
+    ],
+    "year": 2019,
+    "date": "2019-01-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-018-0453-8",
+    "pmid": "30704480",
+    "url": "https://doi.org/10.1186/s12920-018-0453-8",
+    "keywords": [
+      "Exon",
+      "Exon skipping",
+      "Biology",
+      "Alternative splicing",
+      "Genetics",
+      "Single-nucleotide polymorphism"
+    ]
+  },
+  {
+    "id": "doi-10-1182-blood-2018-99-117463",
+    "title": "Novel Form of Alternative Splicing of NFKB1. Its Role in Polycythemia and Adaptation to High Altitude in Andean Aymara",
+    "authors": [
+      "Jihyun Song",
+      "Seonggyun Han",
+      "Ricardo Amaru",
+      "Teddy Quispe",
+      "Dongwook Kim",
+      "Jacob E. Crawford",
+      "Josef Stehlik",
+      "Rasmus Nielsen",
+      "Younghee Lee",
+      "Josef T. Prchal"
+    ],
+    "year": 2018,
+    "date": "2018-11-29",
+    "journal": "Blood",
+    "type": "conference-abstract",
+    "doi": "10.1182/blood-2018-99-117463",
+    "pmid": "",
+    "url": "https://doi.org/10.1182/blood-2018-99-117463",
+    "keywords": [
+      "Transcriptome",
+      "Gene",
+      "Biology",
+      "Alternative splicing",
+      "Intron",
+      "Exon"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-018-0390-6",
+    "title": "Rare variants in the splicing regulatory elements of EXOC3L4 are associated with brain glucose metabolism in Alzheimer’s disease",
+    "authors": [
+      "for the Alzheimer’s Disease Neuroimaging Initiative",
+      "Jason E. Miller",
+      "Manu Shivakumar",
+      "Younghee Lee",
+      "Seonggyun Han",
+      "Emrin Horgousluoglu",
+      "Shannon L. Risacher",
+      "Andrew J. Saykin",
+      "Kwangsik Nho",
+      "Dokyoon Kim"
+    ],
+    "year": 2018,
+    "date": "2018-09-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-018-0390-6",
+    "pmid": "30255815",
+    "url": "https://doi.org/10.1186/s12920-018-0390-6",
+    "keywords": [
+      "Human genetics",
+      "RNA splicing",
+      "Disease",
+      "Biology",
+      "Alzheimer's disease",
+      "Genetics"
+    ]
+  },
+  {
+    "id": "pmid-29888056",
+    "title": "Genetic variation affecting exon skipping contributes to brain structural atrophy in Alzheimer's disease",
+    "authors": [
+      "Young Hee Lee",
+      "Seonggyun Han",
+      "Dong‐Wook Kim",
+      "Dokyoon Kim",
+      "Emrin Horgousluoglu",
+      "Shannon L. Risacher",
+      "Andrew J. Saykin",
+      "Kwangsik Nho"
+    ],
+    "year": 2018,
+    "date": "2018-05-18",
+    "journal": "AMIA Joint Summits on Translational Science Proceedings",
+    "type": "article",
+    "doi": "",
+    "pmid": "29888056",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29888056/",
+    "keywords": [
+      "Exon skipping",
+      "Alzheimer's disease",
+      "Brain structural atrophy",
+      "Genetics",
+      "Alternative splicing",
+      "Translational bioinformatics"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-018-0348-8",
+    "title": "CAS-viewer: web-based tool for splicing-guided integrative analysis of multi-omics cancer data",
+    "authors": [
+      "Seonggyun Han",
+      "Dongwook Kim",
+      "Young-Jun Kim",
+      "Kanghoon Choi",
+      "Jason E. Miller",
+      "Dokyoon Kim",
+      "Younghee Lee"
+    ],
+    "year": 2018,
+    "date": "2018-04-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-018-0348-8",
+    "pmid": "29697367",
+    "url": "https://doi.org/10.1186/s12920-018-0348-8",
+    "keywords": [
+      "Biology",
+      "Computational biology",
+      "DNA methylation",
+      "Genome browser",
+      "Alternative splicing",
+      "RNA splicing"
+    ]
+  },
+  {
+    "id": "doi-10-1158-1541-7786-mcr-17-0227",
+    "title": "Population-dependent Intron Retention and DNA Methylation in Breast Cancer",
+    "authors": [
+      "Dongwook Kim",
+      "Manu Shivakumar",
+      "Seonggyun Han",
+      "Michael S. Sinclair",
+      "Young-Ji Lee",
+      "Yonglan Zheng",
+      "Olufunmilayo I. Olopade",
+      "Dokyoon Kim",
+      "Younghee Lee"
+    ],
+    "year": 2018,
+    "date": "2018-01-12",
+    "journal": "Molecular Cancer Research",
+    "type": "article",
+    "doi": "10.1158/1541-7786.mcr-17-0227",
+    "pmid": "29330282",
+    "url": "https://doi.org/10.1158/1541-7786.mcr-17-0227",
+    "keywords": [
+      "Intron",
+      "DNA methylation",
+      "Epigenetics",
+      "Biology",
+      "Methylation",
+      "Exon"
+    ]
+  },
+  {
+    "id": "doi-10-1371-journal-pone-0190708",
+    "title": "The effects of alternative splicing on miRNA binding sites in bladder cancer",
+    "authors": [
+      "Seonggyun Han",
+      "Dongwook Kim",
+      "Dongwook Kim",
+      "Manu Shivakumar",
+      "Young-Ji Lee",
+      "Young-Ji Lee",
+      "Tullika Garg",
+      "Jason E. Miller",
+      "Ju Han Kim",
+      "Dokyoon Kim",
+      "Dokyoon Kim",
+      "Younghee Lee",
+      "Younghee Lee"
+    ],
+    "year": 2018,
+    "date": "2018-01-04",
+    "journal": "PLoS ONE",
+    "type": "article",
+    "doi": "10.1371/journal.pone.0190708",
+    "pmid": "29300757",
+    "url": "https://doi.org/10.1371/journal.pone.0190708",
+    "keywords": [
+      "microRNA",
+      "Biology",
+      "Gene silencing",
+      "Untranslated region",
+      "Alternative splicing",
+      "Gene isoform"
+    ]
+  },
+  {
+    "id": "doi-10-1038-s41598-017-05744-9",
+    "title": "Evidence of selection on splicing-associated loci in human populations and relevance to disease loci mapping",
+    "authors": [
+      "Eric R. Gamazon",
+      "Anuar Konkashbaev",
+      "Eske M. Derks",
+      "Nancy J. Cox",
+      "Younghee Lee"
+    ],
+    "year": 2017,
+    "date": "2017-07-14",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "doi": "10.1038/s41598-017-05744-9",
+    "pmid": "28729732",
+    "url": "https://doi.org/10.1038/s41598-017-05744-9",
+    "keywords": [
+      "Biology",
+      "Single-nucleotide polymorphism",
+      "Genetics",
+      "Population",
+      "Linkage disequilibrium",
+      "Human genome"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s12920-017-0269-y",
+    "title": "Identification of epigenetic interactions between miRNA and DNA methylation associated with gene expression as potential prognostic markers in bladder cancer",
+    "authors": [
+      "Manu Shivakumar",
+      "Younghee Lee",
+      "Lisa Bang",
+      "Tullika Garg",
+      "Kyung-Ah Sohn",
+      "Dokyoon Kim"
+    ],
+    "year": 2017,
+    "date": "2017-05-01",
+    "journal": "BMC Medical Genomics",
+    "type": "article",
+    "doi": "10.1186/s12920-017-0269-y",
+    "pmid": "28589857",
+    "url": "https://doi.org/10.1186/s12920-017-0269-y",
+    "keywords": [
+      "Epigenetics",
+      "Biology",
+      "DNA methylation",
+      "microRNA",
+      "Epigenomics",
+      "Epigenome"
+    ]
+  },
+  {
+    "id": "doi-10-1038-npjgenmed-2016-6",
+    "title": "Integrative genomics analyses unveil downstream biological effectors of disease-specific polymorphisms buried in intergenic regions",
+    "authors": [
+      "Haiquan Li",
+      "Ikbel Achour",
+      "Lisa Bastarache",
+      "Joanne Berghout",
+      "Vincent Gardeux",
+      "Jianrong Li",
+      "Younghee Lee",
+      "Lorenzo L. Pesce",
+      "Xinan Yang",
+      "Kenneth S. Ramos",
+      "Ian Foster",
+      "Joshua C. Denny",
+      "Jason H. Moore",
+      "Yves A. Lussier"
+    ],
+    "year": 2016,
+    "date": "2016-04-27",
+    "journal": "npj Genomic Medicine",
+    "type": "article",
+    "doi": "10.1038/npjgenmed.2016.6",
+    "pmid": "27482468",
+    "url": "https://doi.org/10.1038/npjgenmed.2016.6",
+    "keywords": [
+      "Biology",
+      "Genome-wide association study",
+      "Single-nucleotide polymorphism",
+      "Genetics",
+      "Intergenic region",
+      "Expression quantitative trait loci"
+    ]
+  },
+  {
+    "id": "doi-10-1038-ncomms10635",
+    "title": "A variant at 9p21.3 functionally implicates CDKN2B in paediatric B-cell precursor acute lymphoblastic leukaemia aetiology",
+    "authors": [
+      "Eric A. Hungate",
+      "Sapana Vora",
+      "Eric R. Gamazon",
+      "Takaya Moriyama",
+      "Timothy Best",
+      "Imge Hulur",
+      "Young‐Hee Lee",
+      "Tiffany‐Jane Evans",
+      "Eva Ellinghaus",
+      "Martin Stanulla",
+      "Jérémie Rudant",
+      "Laurent Orsi",
+      "Jacqueline Clavel",
+      "Elizabeth Milne",
+      "Rodney J. Scott",
+      "Ching‐Hon Pui",
+      "Nancy J. Cox",
+      "Mignon L. Loh",
+      "Jun J. Yang",
+      "Andrew D. Skol",
+      "Kenan Onel"
+    ],
+    "year": 2016,
+    "date": "2016-02-12",
+    "journal": "Nature Communications",
+    "type": "article",
+    "doi": "10.1038/ncomms10635",
+    "pmid": "26868379",
+    "url": "https://doi.org/10.1038/ncomms10635",
+    "keywords": [
+      "Etiology",
+      "Cancer research",
+      "Genetics",
+      "CDKN2B",
+      "Medicine",
+      "Computational biology"
+    ]
+  },
+  {
+    "id": "doi-10-1016-bs-apcsb-2015-03-004",
+    "title": "Perspective of Peptide Vaccine Composed of Epitope Peptide, CpG-DNA, and Liposome Complex Without Carriers",
+    "authors": [
+      "Younghee Lee",
+      "Young Seek Lee",
+      "Soo Young Cho",
+      "Hyung‐Joo Kwon"
+    ],
+    "year": 2015,
+    "date": "2015-01-01",
+    "journal": "Advances in protein chemistry and structural biology",
+    "type": "book-chapter",
+    "doi": "10.1016/bs.apcsb.2015.03.004",
+    "pmid": "26067817",
+    "url": "https://doi.org/10.1016/bs.apcsb.2015.03.004",
+    "keywords": [
+      "Epitope",
+      "Adjuvant",
+      "Immune system",
+      "Antigen",
+      "Immunization",
+      "Antibody"
+    ]
+  },
+  {
+    "id": "doi-10-1038-nbt-3048",
+    "title": "Differentiation of human pluripotent stem cells to cells similar to cord-blood endothelial colony–forming cells",
+    "authors": [
+      "Nutan Prasain",
+      "Man Ryul Lee",
+      "Sasidhar Vemula",
+      "J. Luke Meador",
+      "Momoko Yoshimoto",
+      "Michael J. Ferkowicz",
+      "Alexa Fett",
+      "Manav Gupta",
+      "Brian M. Rapp",
+      "M. Reza Saadatzadeh",
+      "Michael Ginsberg",
+      "Olivier Elemento",
+      "Younghee Lee",
+      "Sherry L. Voytik‐Harbin",
+      "Hyung‐Min Chung",
+      "Ki Sung Hong",
+      "Emma Reid",
+      "Christina O’Neill",
+      "Reinhold J. Medina",
+      "Alan W. Stitt",
+      "Michael P. Murphy",
+      "Shahin Rafii",
+      "Hal E. Broxmeyer",
+      "Mervin C. Yöder"
+    ],
+    "year": 2014,
+    "date": "2014-10-12",
+    "journal": "Nature Biotechnology",
+    "type": "article",
+    "doi": "10.1038/nbt.3048",
+    "pmid": "25306246",
+    "url": "https://doi.org/10.1038/nbt.3048",
+    "keywords": [
+      "Induced pluripotent stem cell",
+      "Cell biology",
+      "Stem cell",
+      "Endothelial stem cell",
+      "Embryonic stem cell",
+      "Cord blood"
+    ]
+  },
+  {
+    "id": "doi-10-1136-amiajnl-2012-001519",
+    "title": "Network models of genome-wide association studies uncover the topological centrality of protein interactions in complex diseases",
+    "authors": [
+      "Younghee Lee",
+      "Haiquan Li",
+      "Jianrong Li",
+      "Ellen Rebman",
+      "Ikbel Achour",
+      "Kelly Regan",
+      "Eric R. Gamazon",
+      "James L. Chen",
+      "Xinan Yang",
+      "Nancy J. Cox",
+      "Yves A. Lussier"
+    ],
+    "year": 2013,
+    "date": "2013-01-26",
+    "journal": "Journal of the American Medical Informatics Association",
+    "type": "article",
+    "doi": "10.1136/amiajnl-2012-001519",
+    "pmid": "23355459",
+    "url": "https://doi.org/10.1136/amiajnl-2012-001519",
+    "keywords": [
+      "Genome-wide association study",
+      "Missing heritability problem",
+      "Genetic association",
+      "Biology",
+      "Genetics",
+      "Genetic architecture"
+    ]
+  },
+  {
+    "id": "doi-10-1371-journal-pgen-1002998",
+    "title": "Variants Affecting Exon Skipping Contribute to Complex Traits",
+    "authors": [
+      "Younghee Lee",
+      "Younghee Lee",
+      "Eric R. Gamazon",
+      "Ellen Rebman",
+      "YeunSook Lee",
+      "YeunSook Lee",
+      "Sanghyuk Lee",
+      "M. Eileen Dolan",
+      "Nancy J. Cox",
+      "Yves A. Lussier"
+    ],
+    "year": 2012,
+    "date": "2012-10-25",
+    "journal": "PLoS Genetics",
+    "type": "article",
+    "doi": "10.1371/journal.pgen.1002998",
+    "pmid": "23133393",
+    "url": "https://doi.org/10.1371/journal.pgen.1002998",
+    "keywords": [
+      "Biology",
+      "Exon skipping",
+      "Genetics",
+      "RNA splicing",
+      "Single-nucleotide polymorphism",
+      "Alternative splicing"
+    ]
+  },
+  {
+    "id": "doi-10-1158-1078-0432-ccr-12-2090",
+    "title": "Hidden Dangers: A Cryptic Exon Disrupts <i>BRCA2</i> mRNA",
+    "authors": [
+      "James D. Fackenthal",
+      "Younghee Lee",
+      "Olufunmilayo I. Olopade"
+    ],
+    "year": 2012,
+    "date": "2012-08-06",
+    "journal": "Clinical Cancer Research",
+    "type": "article",
+    "doi": "10.1158/1078-0432.ccr-12-2090",
+    "pmid": "22869870",
+    "url": "https://doi.org/10.1158/1078-0432.ccr-12-2090",
+    "keywords": [
+      "Exon",
+      "Biology",
+      "Messenger RNA",
+      "Genetics",
+      "Computational biology"
+    ]
+  },
+  {
+    "id": "doi-10-1136-amiajnl-2011-000482",
+    "title": "Complex-disease networks of trait-associated single-nucleotide polymorphisms (SNPs) unveiled by information theory",
+    "authors": [
+      "Haiquan Li",
+      "Younghee Lee",
+      "James L. Chen",
+      "Ellen Rebman",
+      "Jianrong Li",
+      "Yves A. Lussier"
+    ],
+    "year": 2012,
+    "date": "2012-01-26",
+    "journal": "Journal of the American Medical Informatics Association",
+    "type": "article",
+    "doi": "10.1136/amiajnl-2011-000482",
+    "pmid": "22278381",
+    "url": "https://doi.org/10.1136/amiajnl-2011-000482",
+    "keywords": [
+      "Single-nucleotide polymorphism",
+      "Genome-wide association study",
+      "Biology",
+      "Genetics",
+      "Trait",
+      "Complex disease"
+    ]
+  },
+  {
+    "id": "doi-10-1371-journal-pone-0028650",
+    "title": "MicroRNA Expression Characterizes Oligometastasis(es)",
+    "authors": [
+      "Yves A. Lussier",
+      "Hongyun Xing",
+      "Joseph K. Salama",
+      "Nikolai N. Khodarev",
+      "Yong Huang",
+      "Qingbei Zhang",
+      "Sajid Khan",
+      "Xinan Yang",
+      "Michael D. Hasselle",
+      "Thomas E. Darga",
+      "Renuka Malik",
+      "Hanli Fan",
+      "Samantha Perakis",
+      "Matthew Filippo",
+      "Kimberly S. Corbin",
+      "Younghee Lee",
+      "Mitchell C. Posner",
+      "Steven J. Chmura",
+      "Samuel Hellmän",
+      "Ralph R. Weichselbaum"
+    ],
+    "year": 2011,
+    "date": "2011-12-13",
+    "journal": "PLoS ONE",
+    "type": "article",
+    "doi": "10.1371/journal.pone.0028650",
+    "pmid": "22174856",
+    "url": "https://doi.org/10.1371/journal.pone.0028650",
+    "keywords": [
+      "microRNA",
+      "Metastasis",
+      "Medicine",
+      "Oncology",
+      "Radiation therapy",
+      "Internal medicine"
+    ]
+  },
+  {
+    "id": "doi-10-1093-bioinformatics-btr142",
+    "title": "<i>GO-Module</i>: functional synthesis and improved interpretation of Gene Ontology patterns",
+    "authors": [
+      "Xinan Yang",
+      "Jianrong Li",
+      "Younghee Lee",
+      "Yves A. Lussier"
+    ],
+    "year": 2011,
+    "date": "2011-03-17",
+    "journal": "Bioinformatics",
+    "type": "article",
+    "doi": "10.1093/bioinformatics/btr142",
+    "pmid": "21421553",
+    "url": "https://doi.org/10.1093/bioinformatics/btr142",
+    "keywords": [
+      "Computer science",
+      "Gene ontology",
+      "Ontology",
+      "Programming language",
+      "Computational biology",
+      "Natural language processing"
+    ]
+  },
+  {
+    "id": "doi-10-1007-s11434-010-4051-1",
+    "title": "Identification of common microRNA-mRNA regulatory biomodules in human epithelial cancer",
+    "authors": [
+      "XiNan Yang",
+      "Younghee Lee",
+      "Hong Fan",
+      "Xiaohan Sun",
+      "Yves A. Lussier"
+    ],
+    "year": 2010,
+    "date": "2010-11-01",
+    "journal": "Chinese Science Bulletin",
+    "type": "article",
+    "doi": "10.1007/s11434-010-4051-1",
+    "pmid": "21340045",
+    "url": "https://doi.org/10.1007/s11434-010-4051-1",
+    "keywords": [
+      "microRNA",
+      "Gene",
+      "Biology",
+      "Gene expression",
+      "Cancer",
+      "Messenger RNA"
+    ]
+  },
+  {
+    "id": "doi-10-1371-journal-pcbi-1000730",
+    "title": "Network Modeling Identifies Molecular Functions Targeted by miR-204 to Suppress Head and Neck Tumor Metastasis",
+    "authors": [
+      "Younghee Lee",
+      "Xinan Yang",
+      "Yong Huang",
+      "Hanli Fan",
+      "Qingbei Zhang",
+      "Youngfei Wu",
+      "Jianrong Li",
+      "Rifat Hasina",
+      "Chao Cheng",
+      "Mark W. Lingen",
+      "Mark Gerstein",
+      "Ralph R. Weichselbaum",
+      "Hongyun Xing",
+      "Yves A. Lussier"
+    ],
+    "year": 2010,
+    "date": "2010-04-01",
+    "journal": "PLoS Computational Biology",
+    "type": "article",
+    "doi": "10.1371/journal.pcbi.1000730",
+    "pmid": "20369013",
+    "url": "https://doi.org/10.1371/journal.pcbi.1000730",
+    "keywords": [
+      "microRNA",
+      "Biology",
+      "Head and neck squamous-cell carcinoma",
+      "Gene regulatory network",
+      "Computational biology",
+      "Metastasis"
+    ]
+  },
+  {
+    "id": "doi-10-5483-bmbrep-2010-43-3-164",
+    "title": "The production and immunostimulatory activity of double-stranded CpG-DNA",
+    "authors": [
+      "Byoung-Kwon Park",
+      "Dongbum Kim",
+      "Jae-Won Rhee",
+      "Minsoo Kim",
+      "Hyun-Jeong Seok",
+      "Soo-Young Choi",
+      "Jinseu Park",
+      "Younghee Lee",
+      "Hyung-Joo Kwon"
+    ],
+    "year": 2010,
+    "date": "2010-03-31",
+    "journal": "BMB Reports",
+    "type": "article",
+    "doi": "10.5483/bmbrep.2010.43.3.164",
+    "pmid": "20356455",
+    "url": "https://doi.org/10.5483/bmbrep.2010.43.3.164",
+    "keywords": [
+      "CpG site",
+      "DNA",
+      "CpG Oligodeoxynucleotide",
+      "Molecular biology",
+      "Immune system",
+      "Biology"
+    ]
+  },
+  {
+    "id": "doi-10-1016-j-jbi-2010-03-009",
+    "title": "Protein interaction network underpins concordant prognosis among heterogeneous breast cancer signatures",
+    "authors": [
+      "James Chen",
+      "Lee Sam",
+      "Yong Huang",
+      "Younghee Lee",
+      "Jianrong Li",
+      "Yang Liu",
+      "Heming Xing",
+      "Yves A. Lussier"
+    ],
+    "year": 2010,
+    "date": "2010-03-30",
+    "journal": "Journal of Biomedical Informatics",
+    "type": "article",
+    "doi": "10.1016/j.jbi.2010.03.009",
+    "pmid": "20350617",
+    "url": "https://doi.org/10.1016/j.jbi.2010.03.009",
+    "keywords": [
+      "Breast cancer",
+      "Computational biology",
+      "Carcinogenesis",
+      "Biological network",
+      "Biology",
+      "Gene"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2696519452",
+    "title": "Molecular bioinformatics for disease",
+    "authors": [
+      "Yves A. Lussier",
+      "Younghee Lee",
+      "Predrag Radivojac",
+      "Yanay Ofran",
+      "Atul J. Butte",
+      "Maricel G. Kann"
+    ],
+    "year": 2009,
+    "date": "2009-12-01",
+    "journal": "Pacific Symposium on Biocomputing",
+    "type": "conference-paper",
+    "doi": "",
+    "pmid": "",
+    "url": "https://arizona.pure.elsevier.com/en/publications/molecular-bioinformatics-for-disease",
+    "keywords": [
+      "Computer science",
+      "Disease",
+      "Bioinformatics",
+      "Computational biology"
+    ]
+  },
+  {
+    "id": "doi-10-1016-j-molimm-2005-07-020",
+    "title": "CpG-oligodeoxynucleotide protects immune cells from γ-irradiation-induced cell death",
+    "authors": [
+      "Wern‐Joo Sohn",
+      "Keunwook Lee",
+      "Soo Young Choi",
+      "Eun‐Kyung Chung",
+      "Younghee Lee",
+      "Tae Yoon Kim",
+      "Suk Kyeong Lee",
+      "Yong-Kyoung Choe",
+      "Jeung‐Hoon Lee",
+      "Doo‐Sik Kim",
+      "Hyung‐Joo Kwon"
+    ],
+    "year": 2005,
+    "date": "2005-08-26",
+    "journal": "Molecular Immunology",
+    "type": "article",
+    "doi": "10.1016/j.molimm.2005.07.020",
+    "pmid": "16122803",
+    "url": "https://doi.org/10.1016/j.molimm.2005.07.020",
+    "keywords": [
+      "CpG Oligodeoxynucleotide",
+      "Immune system",
+      "Programmed cell death",
+      "CpG site",
+      "Cancer research",
+      "Immunology"
+    ]
+  }
+]

@@ -6,6 +6,7 @@ import { projects } from "../content/projects";
 
 it("keeps the first three Overview viewports and adds the glass image study as the fourth", () => {
   render(<Home />);
+  expect(document.querySelector(".overview-page")).toBeInTheDocument();
   expect(screen.getByRole("heading", { level: 1, name: /Connecting animal health/i })).toBeInTheDocument();
   expect(screen.getByRole("heading", { name: /Three data worlds/i })).toBeInTheDocument();
   expect(document.querySelectorAll(".viewport-section")).toHaveLength(4);

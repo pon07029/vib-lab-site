@@ -12,8 +12,15 @@ it("selects a project in the research field", async () => {
   expect(screen.getByRole("status")).toHaveTextContent(projects[2].descriptor);
 });
 
-it("renders a static numeric background without the animated ripple canvas", () => {
+it("renders the animated photo dither background", () => {
   render(<ResearchPulse projects={projects} />);
-  expect(document.querySelector(".numeric-field")).toBeInTheDocument();
-  expect(document.querySelector(".ascii-canvas")).not.toBeInTheDocument();
+  const canvas = document.querySelector(".ascii-dither-canvas");
+  expect(canvas).toBeInTheDocument();
+  expect(canvas).toHaveAttribute("data-render-mode", "dither");
+  expect(canvas).toHaveAttribute("data-cell-size", "6");
+  expect(canvas).toHaveAttribute("data-animation", "pulse");
+  expect(canvas).toHaveAttribute("data-source", "/research-pulse-cat.png");
+  expect(canvas).toHaveAttribute("data-ascii-engine", "full-pipeline");
+  expect(canvas).toHaveAttribute("data-render-mode-count", "25");
+  expect(document.querySelector(".numeric-field")).not.toBeInTheDocument();
 });

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { Project } from "../content/projects";
-import { NumericField } from "./numeric-field";
+import { AsciiDitherBackground } from "./ascii-dither-background";
 
 type ResearchPulseProps = { projects: Project[] };
 
@@ -12,11 +12,11 @@ export function ResearchPulse({ projects }: ResearchPulseProps) {
 
   return (
     <div className="research-pulse">
-      <NumericField />
-      <div className="research-pulse__topline"><span>VIB / ACTIVE RESEARCH</span><span>CLICK THE FIELD</span></div>
+      <AsciiDitherBackground />
+      <div className="research-pulse__topline"><span>VIB LAB / CURRENT RESEARCH</span><span>SELECT A PROJECT</span></div>
       <div className="research-pulse__intro">
-        <p className="eyebrow">RESEARCH WITH A CONNECTED PURPOSE</p>
-        <h2>One question.<br />Many kinds of evidence.</h2>
+        <p className="eyebrow">WHAT WE ARE WORKING ON</p>
+        <h2>Research shaped by<br />real-world questions.</h2>
       </div>
       <div className="research-pulse__list">
         {projects.map((project, index) => (

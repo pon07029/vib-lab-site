@@ -4,11 +4,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { site } from "../content/site";
 import { activeRoute } from "../lib/route";
-import { LabIndex } from "./lab-index";
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const [indexOpen, setIndexOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [chapter, setChapter] = useState(0);
   const [chapterCount, setChapterCount] = useState(1);
@@ -60,9 +58,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           {Array.from({ length: Math.min(chapterCount, 9) }, (_, index) => <i key={index} className={index === chapter ? "is-active" : ""} />)}
         </div>
       </div>
-      <button className="lab-index-trigger" type="button" aria-label="Learn more about VIB Lab" onClick={() => setIndexOpen(true)}><span>LEARN</span><strong>MORE +</strong></button>
       <main className="site-main" key={pathname}>{children}</main>
-      <LabIndex open={indexOpen} onClose={() => setIndexOpen(false)} />
     </>
   );
 }

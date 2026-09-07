@@ -1,5 +1,4 @@
 import { AlumniArchive } from "../../components/alumni-archive";
-import { Footer } from "../../components/footer";
 import { MentorsSection } from "../../components/ui/mentors-section";
 import { ViewportSection } from "../../components/viewport-section";
 import { alumni, people } from "../../content/people";
@@ -15,7 +14,5 @@ export default function PeoplePage() {
     <ViewportSection chapter="Alumni" className="alumni-viewport">
       <AlumniArchive alumni={alumni} />
     </ViewportSection>
-    <ViewportSection chapter="Join" tone="signal" className="people-join"><p className="eyebrow">JOIN THE LAB</p><h2>Your discipline is one part of the system.</h2><p>We welcome students who can connect a careful question to useful evidence.</p><a className="text-action" href="mailto:amazon@snu.ac.kr">Introduce your research interests <span>↗</span></a></ViewportSection>
-    <Footer />
   </>;
 }

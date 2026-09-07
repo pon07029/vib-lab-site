@@ -1,12 +1,11 @@
 import { DataTunnel } from "../components/data-tunnel";
-import { GlassImageStudy } from "../components/glass-image-study";
 import { ResearchPulse } from "../components/research-pulse";
 import { ViewportSection } from "../components/viewport-section";
 import { projects } from "../content/projects";
 import { site } from "../content/site";
 
 export default function Home() {
-  return <>
+  return <div className="overview-page">
     <ViewportSection chapter="Overview" className="hero-section">
       <div className="hero-copy">
         <div className="hero-copy__main">
@@ -47,8 +46,5 @@ export default function Home() {
       <ResearchPulse projects={projects} />
     </ViewportSection>
 
-    <ViewportSection chapter="Glass image study" tone="ink" className="glass-image-study-section">
-      <GlassImageStudy />
-    </ViewportSection>
-  </>;
+  </div>;
 }

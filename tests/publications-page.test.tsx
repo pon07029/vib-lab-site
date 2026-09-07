@@ -10,4 +10,6 @@ it("starts Publications with the archive after removing the first two viewports"
   expect(screen.queryByRole("heading", { name: /Evidence, made public/i })).not.toBeInTheDocument();
   expect(screen.queryByRole("heading", { name: /One finding at a time/i })).not.toBeInTheDocument();
   expect(document.querySelector('[data-chapter="Archive"]')).toBeInTheDocument();
+  expect(screen.getByText("47 RECORDS")).toBeInTheDocument();
+  expect(screen.getByText("TYPE")).toBeInTheDocument();
 });
