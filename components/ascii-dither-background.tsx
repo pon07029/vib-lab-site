@@ -55,6 +55,7 @@ export function AsciiDitherBackground() {
     let sourceReady = false;
     let maskReady = false;
     const matrixHeads: number[] = [];
+    const sourceMotion = { x: 0.76, y: 0.5, scale: 1.16 };
     const startedAt = performance.now();
 
     const resize = () => {
@@ -83,6 +84,7 @@ export function AsciiDitherBackground() {
           mask: maskReady ? maskImage : null,
           buffers,
           matrixHeads,
+          sourceMotion,
           config: ASCII_DITHER_PRESET,
         });
       }
@@ -102,7 +104,6 @@ export function AsciiDitherBackground() {
     };
 
     const handleVisibility = () => document.hidden ? stop() : start();
-
     sourceImage.onload = () => { sourceReady = true; start(); };
     sourceImage.onerror = () => { sourceReady = false; start(); };
     maskImage.onload = () => { maskReady = true; };

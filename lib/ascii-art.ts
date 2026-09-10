@@ -387,6 +387,12 @@ export type AsciiCanvasBuffers = {
   auxiliary: HTMLCanvasElement;
 };
 
+export type AsciiSourceMotion = {
+  x: number;
+  y: number;
+  scale: number;
+};
+
 export type AsciiFrameInput = {
   context: CanvasRenderingContext2D;
   width: number;
@@ -396,6 +402,7 @@ export type AsciiFrameInput = {
   mask: CanvasImageSource | null;
   buffers: AsciiCanvasBuffers;
   matrixHeads: number[];
+  sourceMotion?: AsciiSourceMotion;
   config: AsciiArtConfig;
 };
 
@@ -407,12 +414,14 @@ function canvasSourceSize(source: CanvasImageSource) {
   };
 }
 
-function drawCover(context: CanvasRenderingContext2D, source: CanvasImageSource, width: number, height: number) {
+function drawCover(context: CanvasRenderingContext2D, source: CanvasImageSource, width: number, height: number, motion?: AsciiSourceMotion) {
   const dimensions = canvasSourceSize(source);
-  const scale = Math.max(width / dimensions.width, height / dimensions.height);
+  const scale = Math.max(width / dimensions.width, height / dimensions.height) * (motion?.scale ?? 1);
   const drawWidth = dimensions.width * scale;
   const drawHeight = dimensions.height * scale;
-  context.drawImage(source, (width - drawWidth) * 0.82, (height - drawHeight) / 2, drawWidth, drawHeight);
+  const motionX = ((motion?.x ?? 0.76) - 0.76) * width * 0.42;
+  const motionY = ((motion?.y ?? 0.5) - 0.5) * height * 0.24;
+  context.drawImage(source, (width - drawWidth) * 0.82 + motionX, (height - drawHeight) / 2 + motionY, drawWidth, drawHeight);
 }
 
 function sizeCanvas(canvas: HTMLCanvasElement, width: number, height: number) {
@@ -515,7 +524,7 @@ function applyPostEffect(name: EffectName, intensity: number, canvas: HTMLCanvas
 }
 
 export function renderAsciiFrame(input: AsciiFrameInput) {
-  const { context, width, height, time, source, mask, buffers, matrixHeads, config } = input;
+  const { context, width, height, time, source, mask, buffers, matrixHeads, sourceMotion, config } = input;
   const pixelWidth = Math.max(1, Math.round(width)); const pixelHeight = Math.max(1, Math.round(height));
   for (const canvas of [buffers.plain, buffers.effect, buffers.work, buffers.auxiliary]) sizeCanvas(canvas, pixelWidth, pixelHeight);
   const plainContext = buffers.plain.getContext("2d"); const effectContext = buffers.effect.getContext("2d", { willReadFrequently: true });
@@ -523,19 +532,19 @@ export function renderAsciiFrame(input: AsciiFrameInput) {
   if (!plainContext || !effectContext || !workContext || !auxiliaryContext) return;
 
   plainContext.clearRect(0, 0, width, height);
-  if (source) drawCover(plainContext, source, width, height);
+  if (source) drawCover(plainContext, source, width, height, sourceMotion);
   effectContext.clearRect(0, 0, width, height);
   effectContext.save(); effectContext.globalAlpha = clamp01(config.bgOpacity / 100);
   if (config.bgMode === "solid") { effectContext.fillStyle = config.bgColor || "#050505"; effectContext.fillRect(0, 0, width, height); }
   if ((config.bgMode === "original" || config.bgMode === "blurred") && source) {
-    effectContext.filter = config.bgMode === "blurred" ? `blur(${config.bgBlur}px)` : "none"; drawCover(effectContext, source, width, height);
+    effectContext.filter = config.bgMode === "blurred" ? `blur(${config.bgBlur}px)` : "none"; drawCover(effectContext, source, width, height, sourceMotion);
   }
   effectContext.restore();
 
   const cellSize = Math.max(2, Math.round(config.cellSize)); const columns = Math.ceil(width / cellSize); const rows = Math.ceil(height / cellSize);
   sizeCanvas(buffers.sample, columns, rows); const sampleContext = buffers.sample.getContext("2d", { willReadFrequently: true });
   if (!sampleContext) return;
-  sampleContext.clearRect(0, 0, columns, rows); if (source) drawCover(sampleContext, source, columns, rows);
+  sampleContext.clearRect(0, 0, columns, rows); if (source) drawCover(sampleContext, source, columns, rows, sourceMotion);
   const pixels = sampleContext.getImageData(0, 0, columns, rows).data;
   const chars = config.customChars || CHARACTER_SETS[config.charSet] || CHARACTER_SETS.standard;
   const speed = config.animSpeed.enabled ? 0.35 + config.animSpeed.intensity / 35 : 1;

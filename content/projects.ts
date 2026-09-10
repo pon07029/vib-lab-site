@@ -61,7 +61,7 @@ export const projects: Project[] = [
   {
     slug: "veterinary-snomed-ct",
     index: "003",
-    name: "Veterinary SNOMED CT Mapping",
+    name: "Standardization of Clinical Terminology in Veterinary Medicine",
     descriptor: "Standard terminology for veterinary records",
     fieldKeywords: ["Veterinary Informatics", "Clinical Terminology", "Data Standardization", "Interoperability"],
     technologyKeywords: ["SNOMED CT", "LLM", "NLP", "Python"],
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     summary:
       "A manual and LLM-assisted workflow for mapping veterinary clinical language to SNOMED CT.",
     description:
-      "Veterinary SNOMED CT Mapping develops a standardized terminology layer for veterinary hospitals through expert-reviewed manual mapping and AI-assisted automated mapping.",
+      "Standardization of Clinical Terminology in Veterinary Medicine develops a standardized terminology layer for veterinary hospitals through expert-reviewed manual mapping and AI-assisted automated mapping.",
     methods: ["Terminology mapping", "LLM-assisted normalization", "Expert review", "Mapping evaluation"],
     impact:
       "Improves the consistency and computability of veterinary clinical data across records and systems.",

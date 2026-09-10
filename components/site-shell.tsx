@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { CyberCatCursor } from "./cyber-cat-cursor";
 import { site } from "../content/site";
 import { activeRoute } from "../lib/route";
 
@@ -30,6 +31,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
 
   return (
     <>
+      <CyberCatCursor />
       <header className={`site-nav ${isGalleryRoute ? "site-nav--gallery" : ""} ${menuOpen ? "is-menu-open" : ""}`} aria-label="Primary navigation">
         <div className="site-nav__bar">
           <a className="site-nav__mark" href="/overview" aria-label="VIB Lab home">VIB</a>
