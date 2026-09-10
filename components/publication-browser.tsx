@@ -6,7 +6,13 @@ import type { Publication } from "../content/publications";
 export function PublicationBrowser({ publications }: { publications: Publication[] }) {
   const [year, setYear] = useState<number | "All">("All");
   const [type, setType] = useState<Publication["type"] | "All">("All");
-  const years = useMemo(() => Array.from(new Set(publications.map((item) => item.year))), [publications]);
+  const [yearsExpanded, setYearsExpanded] = useState(false);
+  const years = useMemo(
+    () => Array.from(new Set(publications.map((item) => item.year))).sort((a, b) => b - a),
+    [publications],
+  );
+  const visibleYears = yearsExpanded ? years : years.slice(0, 5);
+  const hasOlderYears = years.length > 5;
   const types = useMemo(() => Array.from(new Set(publications.map((item) => item.type))), [publications]);
   const filtered = publications.filter((item) => (year === "All" || item.year === year) && (type === "All" || item.type === type));
   const [selectedId, setSelectedId] = useState(publications[0]?.id ?? "");
@@ -15,7 +21,7 @@ export function PublicationBrowser({ publications }: { publications: Publication
   return (
     <div className="publication-browser">
       <div className="publication-browser__toolbar">
-        <div><span>YEAR</span><button className={year === "All" ? "is-active" : ""} onClick={() => setYear("All")}>ALL</button>{years.map((item) => <button key={item} className={year === item ? "is-active" : ""} onClick={() => setYear(item)}>{item}</button>)}</div>
+        <div><span>YEAR</span><button className={year === "All" ? "is-active" : ""} onClick={() => setYear("All")}>ALL</button>{visibleYears.map((item) => <button key={item} className={year === item ? "is-active" : ""} onClick={() => setYear(item)}>{item}</button>)}{hasOlderYears && <button type="button" className="publication-browser__year-toggle" aria-label={yearsExpanded ? "Show fewer publication years" : "Show all publication years"} aria-expanded={yearsExpanded} onClick={() => setYearsExpanded((expanded) => !expanded)}>{yearsExpanded ? "−" : "+"}</button>}</div>
         <div><span>TYPE</span><button className={type === "All" ? "is-active" : ""} onClick={() => setType("All")}>ALL</button>{types.map((item) => <button key={item} className={type === item ? "is-active" : ""} onClick={() => setType(item)}>{item}</button>)}</div>
         <p>{String(filtered.length).padStart(2, "0")} RECORDS</p>
       </div>

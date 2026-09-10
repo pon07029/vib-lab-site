@@ -37,7 +37,7 @@ function ProjectSignal({ project, active }: { project: Project; active: boolean 
           const y = (row / 21) * height + (signal - 0.5) * 22;
           if (column === 0) context.moveTo(x, y); else context.lineTo(x, y);
         }
-        context.strokeStyle = row % 6 === 0 ? "rgba(255,145,0,.58)" : "rgba(241,238,231,.14)";
+        context.strokeStyle = row % 6 === 0 ? "rgba(122,51,64,.58)" : "rgba(241,238,231,.14)";
         context.stroke();
       }
       context.font = "500 11px GeistMono, monospace";

@@ -32,7 +32,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
     <>
       <header className={`site-nav ${isGalleryRoute ? "site-nav--gallery" : ""} ${menuOpen ? "is-menu-open" : ""}`} aria-label="Primary navigation">
         <div className="site-nav__bar">
-          <a className="site-nav__mark" href="/overview" aria-label="VIB Lab home">VIB<span>•</span></a>
+          <a className="site-nav__mark" href="/overview" aria-label="VIB Lab home">VIB</a>
           <nav className="site-nav__links" aria-label="Main routes">
             {site.navigation.map((item, index) => (
               <a key={item.label} href={item.href} aria-label={item.label} aria-current={current === item.label ? "page" : undefined} onClick={() => setMenuOpen(false)}>
@@ -44,12 +44,6 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <button className="site-nav__menu-toggle" type="button" aria-expanded={menuOpen} aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen((value) => !value)}>
             {menuOpen ? "CLOSE" : "MENU"}
           </button>
-        </div>
-        <div className="site-nav__ticker">
-          <div className="site-nav__ticker-track" aria-hidden="true">
-            <span>VETERINARY INFORMATICS &amp; BIOINFORMATICS</span><i>●</i><span>SEOUL NATIONAL UNIVERSITY</span><i>●</i><span>06 ACTIVE PROJECTS</span><i>●</i>
-            <span>VETERINARY INFORMATICS &amp; BIOINFORMATICS</span><i>●</i><span>SEOUL NATIONAL UNIVERSITY</span><i>●</i><span>06 ACTIVE PROJECTS</span><i>●</i>
-          </div>
         </div>
       </header>
       <div className="page-minimap" aria-label={`Chapter ${chapter + 1} of ${chapterCount}`}>
