@@ -348,7 +348,7 @@ body:has(.overview-page) { scroll-snap-type: y mandatory; }
 .publication-list { overflow-y: auto; border-right: 1px solid rgba(35,35,35,.25); }
 .publication-list button { width: 100%; min-height: 96px; padding: 14px 16px; display: grid; grid-template-columns: 42px 1fr 88px; gap: 14px; align-items: center; border: 0; border-bottom: 1px solid rgba(35,35,35,.22); background: transparent; text-align: left; cursor: pointer; transition: background .2s ease,color .2s ease; }
 .publication-list button > span, .publication-list button small { font: 500 9px/1.4 var(--font-geist-mono),monospace; }
-.publication-list button strong { font-size: clamp(15px,1.05vw,19px); line-height: 1.2; font-weight: 510; letter-spacing: -.018em; }
+.publication-list button strong { font-size: clamp(14px,.9vw,17px); line-height: 1.2; font-weight: 510; letter-spacing: -.018em; }
 .publication-list button.is-active { background: var(--ink); color: var(--paper); box-shadow: inset 4px 0 0 var(--signal); }
 .publication-list__empty { padding: 30px; font: 500 11px/1 var(--font-geist-mono),monospace; }
 .publication-preview { padding: clamp(28px,3vw,58px); display: flex; flex-direction: column; background: #d7d4cc; }
@@ -629,13 +629,13 @@ body { font-size: 16px; overflow-x: clip; }
   background: var(--ca-paper);
 }
 .hero-copy__main { max-width: 760px; margin: auto 0; padding: 0; }
-.hero-copy__kicker { margin-bottom: 26px; color: var(--ca-ink); font: 500 16px/1.2 var(--font-geist-mono),monospace; }
-.hero-copy h1 { max-width: 790px; font-size: clamp(60px,4.16vw,80px); line-height: .98; letter-spacing: -.052em; font-weight: 430; }
-.hero-copy__intro { max-width: 720px; margin-top: 36px; font-size: clamp(17px,1.08vw,21px); line-height: 1.32; letter-spacing: -.018em; }
+.hero-copy__kicker { margin-bottom: 26px; color: var(--ca-ink); font: 500 14px/1.2 var(--font-geist-mono),monospace; }
+.hero-copy h1 { max-width: 790px; font-size: clamp(56px,3.75vw,72px); line-height: .98; letter-spacing: -.052em; font-weight: 430; }
+.hero-copy__intro { max-width: 720px; margin-top: 36px; font-size: clamp(16px,1vw,19px); line-height: 1.32; letter-spacing: -.018em; }
 .hero-copy__actions { margin-top: 30px; display: flex; }
 .hero-copy__actions a {
   min-width: 102px;
-  height: 49px;
+  height: 45px;
   padding: 0 22px;
   display: flex;
   align-items: center;
@@ -1214,7 +1214,7 @@ body { font-size: 16px; overflow-x: clip; }
     margin-bottom: clamp(32px, 4vh, 46px);
   }
   .publication-browser-section .section-heading-row h2 {
-    font-size: clamp(52px, 4vw, 72px);
+    font-size: clamp(48px, 3.5vw, 60px);
   }
   .publication-browser-section .publication-browser__toolbar {
     min-height: 76px;
@@ -1234,11 +1234,11 @@ body { font-size: 16px; overflow-x: clip; }
     padding: clamp(24px, 2.5vw, 42px);
   }
   .publication-browser-section .publication-preview h2 {
-    font-size: clamp(30px, 2.25vw, 42px);
+    font-size: clamp(28px, 2vw, 36px);
   }
   .publication-browser-section .publication-preview blockquote {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 15px;
   }
 }
