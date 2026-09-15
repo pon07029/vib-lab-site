@@ -41,3 +41,4 @@ yarn-error.log*
 /reference-captures/
 /qa-captures/
 /implementation-*.png
+*.tsbuildinfo

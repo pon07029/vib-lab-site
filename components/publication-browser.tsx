@@ -39,8 +39,11 @@ export function PublicationBrowser({ publications }: { publications: Publication
             <div className="publication-preview__status"><span>SELECTED RECORD</span><i>● READ</i></div>
             <p className="eyebrow">{selected.year} / {selected.type}</p>
             <h2>{selected.title}</h2>
-            <blockquote>“{selected.contribution}”</blockquote>
-            <div><span>AUTHORS</span><p>{selected.authors}</p><span>JOURNAL</span><p>{selected.journal}</p></div>
+            <div className="publication-preview__meta">
+              <span>AUTHORS</span><p>{selected.authors}</p>
+              <span>JOURNAL</span><p>{selected.journal}</p>
+              <span>KEYWORD</span><p>{selected.keywords && selected.keywords.length > 0 ? selected.keywords.join(" · ") : selected.contribution}</p>
+            </div>
             {selected.url && <a href={selected.url} target="_blank" rel="noreferrer">Open record ↗</a>}
           </>}
         </aside>

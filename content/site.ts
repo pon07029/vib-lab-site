@@ -7,9 +7,9 @@ export const site = {
   name: "VIB Lab",
   longName: "Veterinary Informatics & Bioinformatics",
   affiliation: "College of Veterinary Medicine, Seoul National University",
-  statement: "Connecting animal health, biological data, and AI.",
+  statement: "VIB LAB",
   introduction:
-    "We translate genomics, clinical records, and intelligent systems into research that benefits companion animals and human health.",
+    "Using veterinary, genomic, and health data with bioinformatics and AI to understand health across species.",
   email: "amazon@snu.ac.kr",
   navigation: [
     { label: "Overview", href: "/" },

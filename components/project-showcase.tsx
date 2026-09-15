@@ -79,7 +79,7 @@ export function ProjectShowcase({ projects }: { projects: Project[] }) {
                 <div className="project-showcase__visual">
                   <ProjectSignal project={project} active={active} />
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={`/research/${project.slug}.webp`} alt={`${project.name} visual`} />
+                  <img src={project.image || `/research/${project.slug}.jpg`} alt={`${project.name} visual`} />
                   <div className="project-showcase__scan" aria-hidden="true" />
                 </div>
                 <div className="project-showcase__meta">

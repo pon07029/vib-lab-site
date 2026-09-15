@@ -17,9 +17,9 @@ export function tunnelRingProgress(ring: number, ringCount: number) {
 
 export function tunnelRingGeometry(ring: number, ringCount: number, width: number, height: number) {
   const progress = tunnelRingProgress(ring, ringCount);
-  const radius = 44 + progress * Math.max(width, height) * 0.77;
-  const innerFontSize = 14;
-  const outerFontSize = Math.min(52, Math.max(28, Math.max(width, height) * 0.045)) - 4;
+  const radius = 44 + progress * Math.max(width, height) * 0.6;
+  const innerFontSize = 10;
+  const outerFontSize = Math.min(52, Math.max(28, Math.max(width, height) * 0.035)) - 4;
   const fontSize = innerFontSize + Math.pow(progress, 0.82) * (outerFontSize - innerFontSize);
   return {
     progress,
@@ -39,12 +39,12 @@ export function tunnelSlotCount(radiusX: number, radiusY: number, fontSize: numb
   const a = Math.max(1, Math.abs(radiusX));
   const b = Math.max(1, Math.abs(radiusY));
   const circumference = Math.PI * (3 * (a + b) - Math.sqrt((3 * a + b) * (a + 3 * b)));
-  const glyphAdvance = Math.max(4, fontSize * 0.62 + 0.6);
+  const glyphAdvance = Math.max(4, fontSize * 0.55 + 0.6);
   return Math.max(8, Math.floor(circumference / glyphAdvance));
 }
 
 export function tunnelPhrase(words: string[]) {
-  const projectGap = " ".repeat(14);
+  const projectGap = " ".repeat(12);
   return `${words.join(projectGap)}${projectGap}`;
 }
 

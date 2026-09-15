@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { CyberCatCursor } from "./cyber-cat-cursor";
+import { Footer } from "./footer";
 import { site } from "../content/site";
 import { activeRoute } from "../lib/route";
 
@@ -47,6 +48,12 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             {menuOpen ? "CLOSE" : "MENU"}
           </button>
         </div>
+        <div className="site-nav__ticker">
+          <div className="site-nav__ticker-track" aria-hidden="true">
+            <span>VETERINARY INFORMATICS &amp; BIOINFORMATICS</span><i>●</i><span>SEOUL NATIONAL UNIVERSITY</span><i>●</i><span>07 ACTIVE PROJECTS</span><i>●</i>
+            <span>VETERINARY INFORMATICS &amp; BIOINFORMATICS</span><i>●</i><span>SEOUL NATIONAL UNIVERSITY</span><i>●</i><span>07 ACTIVE PROJECTS</span><i>●</i>
+          </div>
+        </div>
       </header>
       <div className="page-minimap" aria-label={`Chapter ${chapter + 1} of ${chapterCount}`}>
         <div className="page-minimap__head"><span>0{chapter + 1}</span><span>0{chapterCount}</span></div>
@@ -54,7 +61,10 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           {Array.from({ length: Math.min(chapterCount, 9) }, (_, index) => <i key={index} className={index === chapter ? "is-active" : ""} />)}
         </div>
       </div>
-      <main className="site-main" key={pathname}>{children}</main>
+      <main className="site-main" key={pathname}>
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }

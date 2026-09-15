@@ -101,7 +101,7 @@ export function DataTunnel({ words }: { words: string[] }) {
             target.arc(0, 0, Math.max(0.7, fontSize * 0.075), 0, Math.PI * 2);
             target.fill();
           } else {
-            target.fillStyle = `rgba(248,248,246,${alpha})`;
+            target.fillStyle = `rgba(255,255,255,${alpha})`;
             target.fillText(character, 0, 0);
           }
           target.restore();
