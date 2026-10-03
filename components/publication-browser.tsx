@@ -26,7 +26,7 @@ export function PublicationBrowser({ publications }: { publications: Publication
         <div className="publication-list">
           {filtered.map((item, index) => (
             <button key={item.id} type="button" className={selected?.id === item.id ? "is-active" : ""} onMouseEnter={() => setSelectedId(item.id)} onFocus={() => setSelectedId(item.id)} onClick={() => setSelectedId(item.id)}>
-              <span>{String(index + 1).padStart(2, "0")}</span><strong>{item.title}</strong><small>{item.year}<br />{item.type}</small>
+              <span>{String(index + 1).padStart(2, "0")}</span><strong>{item.title}</strong><small>{item.year} {item.type}</small>
             </button>
           ))}
           {!filtered.length && <p className="publication-list__empty">No records in this filter.</p>}
