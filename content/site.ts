@@ -17,6 +17,7 @@ export const site = {
     { label: "Publications", href: "/publications" },
     { label: "People", href: "/people" },
     { label: "Gallery", href: "/notice" },
+    { label: "News", href: "/news" },
     { label: "Contact", href: "/contact" },
   ] satisfies NavigationItem[],
 } as const;

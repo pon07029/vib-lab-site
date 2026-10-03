@@ -169,7 +169,7 @@ export function DataTunnel({ words }: { words: string[] }) {
 
     renderField();
     randomizeFlashes();
-    flashTimer = window.setInterval(randomizeFlashes, 100);
+    flashTimer = window.setInterval(randomizeFlashes, 200);
     window.addEventListener("resize", scheduleResize);
     return () => {
       window.removeEventListener("resize", scheduleResize);

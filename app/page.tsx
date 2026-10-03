@@ -38,7 +38,7 @@ export default function Home() {
           <b>→</b><div><span>DATA / 02</span><strong>Multi-omics &<br />Lifestyle data</strong><small>genomics · transcriptomics · personal data</small></div>
           <b>→</b><div className="is-active"><span>MODEL / 03</span><strong>Artificial<br />Intelligence</strong><small>multi-agent · deep learning · llm</small></div>
         </div>
-        <div className="pipeline-terminal__log"><span>12:01:06</span><p>VM BI LAB is a research group at the College of Veterinary Medicine, Seoul National University.</p><i>● LIVE</i></div>
+        <div className="pipeline-terminal__log"><span>12:01:06</span><p>VIB LAB is a research group at the College of Veterinary Medicine, Seoul National University.</p><i>● LIVE</i></div>
       </div>
       <div className="pipeline-statement"><p className="eyebrow">RESEARCH OVERVIEW</p><h2>Understanding health across species through data and AI.</h2><p>We integrate biological, clinical, and real-world health data with bioinformatics and artificial intelligence to better understand health and disease across species. Our research develops data-driven approaches spanning veterinary medicine, biology, and personal health.</p></div>
     </ViewportSection>

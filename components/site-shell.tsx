@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { CyberCatCursor } from "./cyber-cat-cursor";
-import { Footer } from "./footer";
 import { site } from "../content/site";
 import { activeRoute } from "../lib/route";
 
@@ -64,7 +63,6 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       <main className="site-main" key={pathname}>
         {children}
       </main>
-      <Footer />
     </>
   );
 }

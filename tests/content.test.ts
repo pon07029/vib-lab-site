@@ -20,14 +20,16 @@ describe("VIB Lab content", () => {
 
 it("uses the provided member portraits and names for the People directory", () => {
   expect(people.map((person) => person.name)).toEqual([
-    "Arok Choi",
+    "Younghee Lee",
     "Minkyung Choi",
     "Jeonghyun Lee",
     "Younghan Song",
-    "Younghee Lee",
-    "Hyeongjin Ju",
-    "Solhee Hong",
     "Angela Do Youn Kim",
+    "Arok Choi",
+    "Solhee Hong",
+    "Hyeongjin Ju",
+    "Chaehojun Jeong",
+    "Rokdam Choi",
   ]);
 
   people.forEach((person) => {

@@ -26,7 +26,7 @@ export function ResearchPulse({ projects }: ResearchPulseProps) {
             aria-label={`Select ${project.name}`}
             className={project.slug === selected.slug ? "is-active" : ""}
             onClick={() => setSelectedSlug(project.slug)}
-            style={{ marginLeft: `${(index % 3) * 16}%` }}
+            style={{ marginLeft: `${(index % 3) * 13}%` }}
           >
             <span>{project.index}</span>
             <strong>{project.name}</strong>

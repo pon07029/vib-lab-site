@@ -10,10 +10,11 @@ import { alumni, people } from "../content/people";
 it("uses the mentor-card directory in the second People viewport", () => {
   render(<PeoplePage />);
 
-  expect(document.querySelectorAll(".viewport-section")).toHaveLength(4);
+  expect(document.querySelectorAll(".viewport-section")).toHaveLength(3);
   expect(screen.getByRole("heading", { name: "Lab members" })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: "All members" })).toBeInTheDocument();
-  expect(screen.getByRole("button", { name: "Researcher members" })).toBeInTheDocument();
+  expect(screen.getByRole("button", { name: "Research Staff members" })).toBeInTheDocument();
+  expect(screen.getByRole("button", { name: "Graduate Students members" })).toBeInTheDocument();
   expect(document.querySelector(".mentor-card-grid")).toHaveClass("mentor-card-grid--stable");
   people.forEach((person) => expect(screen.getByRole("heading", { name: person.name })).toBeInTheDocument());
 });
@@ -25,7 +26,7 @@ it("renders Alumni as a separate archive between the directory and Join", () => 
   const archive = screen.getByRole("region", { name: "Alumniarchive" });
   const archiveScreen = within(archive);
 
-  expect(viewports).toHaveLength(4);
+  expect(viewports).toHaveLength(3);
   expect(viewports.indexOf(archive.closest(".viewport-section")!)).toBe(2);
   expect(alumni).toHaveLength(11);
   expect(archiveScreen.getByText("11 RECORDS")).toBeInTheDocument();

@@ -10,7 +10,7 @@ export function CyberCatCursor() {
 
   useEffect(() => {
     const cat = catRef.current;
-    if (!cat || !window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+    if (!cat || typeof window.matchMedia !== "function" || !window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
 
     const target = { x: window.innerWidth * 0.72, y: window.innerHeight * 0.7 };
     const current = { ...target };

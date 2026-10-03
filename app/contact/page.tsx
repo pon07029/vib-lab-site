@@ -56,54 +56,22 @@ export default function ContactPage() {
               <div className="contact-card__top">
                 <div className="contact-card__badge">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <rect width="20" height="16" x="2" y="4" rx="2" />
-                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
                   </svg>
-                  <span>Email Inquiries</span>
+                  <span>For Prospective Students</span>
                 </div>
                 <span className="contact-card__number">02</span>
               </div>
               <a href={`mailto:${site.email}`} className="contact-card__email">
                 {site.email}
               </a>
-              <p className="contact-card__desc">For student applications and general questions.</p>
+              <p className="contact-card__desc">If you are interested in joining our lab or our research, please send your CV and a brief statement of research interests.</p>
             </article>
 
           </div>
 
-          {/* Row 2: Full width card (For Prospective Students) */}
-          <article className="contact-card contact-card--wide">
-            <div className="contact-card__top">
-              <div className="contact-card__badge">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M21.42 10.922a1 1 0 0 0-.019-.838L12.83 2.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l3.4 1.5v4.584a2 2 0 0 0 1.09 1.772l4 2a2 2 0 0 0 1.82 0l4-2a2 2 0 0 0 1.09-1.772v-4.584l3.42-1.5z" />
-                  <path d="M6 12v5c3 3 9 3 12 0v-5" />
-                </svg>
-                <span>For Prospective Students</span>
-              </div>
-              <span className="contact-card__number">03</span>
-            </div>
-            <div className="contact-card__prospective-body">
-              <div className="contact-card__prospective-title">
-                <h2>Our door is open.<br />Let&apos;s start a conversation.</h2>
-              </div>
-              <div className="contact-card__prospective-content">
-                <p>
-                  We are actively looking for motivated graduate students (Integrated M.S.-Ph.D.) and
-                  Undergraduate researchers. If you are interested in joining our lab or our research,
-                  please send your CV and a brief statement of research interests.
-                </p>
-                <a
-                  href={`mailto:${site.email}?subject=Application%20for%20VIB%20Lab`}
-                  className="contact-card__cta-btn"
-                >
-                  Apply to Lab ↗
-                </a>
-              </div>
-            </div>
-          </article>
-
-          {/* Row 3: Lab Location & Map */}
+          {/* Row 2: Lab Location & Map */}
           <article className="contact-card contact-card--location">
             <div className="contact-location-layout">
               {/* Left Column: Address Information */}
