@@ -922,6 +922,10 @@ body:has(.overview-page) {
   max-width: 820px;
 }
 
+.pipeline-statement .eyebrow {
+  color: #f59e0b;
+}
+
 .pipeline-statement h2,
 .section-intro h2 {
   margin: 0;
@@ -4967,8 +4971,37 @@ body {
   line-height: 1.45;
 }
 
+.alumni-archive__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.alumni-archive__filters button {
+  min-height: 32px;
+  padding: 0 12px;
+  border: 1px solid rgba(35, 35, 35, .3);
+  border-radius: 999px;
+  color: rgba(35, 35, 35, .64);
+  background: transparent;
+  cursor: pointer;
+  font: 500 11px/1 var(--font-geist-mono), monospace;
+  text-transform: uppercase;
+  transition: all .16s ease;
+}
+
+.alumni-archive__filters button:hover,
+.alumni-archive__filters button:focus-visible,
+.alumni-archive__filters button.is-active {
+  border-color: var(--ca-ink);
+  color: var(--ca-paper);
+  background: var(--ca-ink);
+  outline: 0;
+}
+
 .alumni-archive__count {
-  margin: 36px 0 0;
+  margin: 24px 0 0;
   padding-top: 12px;
   border-top: 1px solid rgba(35, 35, 35, .4);
   font: 500 10px/1 var(--font-geist-mono), monospace;
@@ -5013,6 +5046,38 @@ body {
 .alumni-archive__list p {
   color: rgba(35, 35, 35, .68);
   text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.alumni-archive__institution {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font: 600 10px/1.2 var(--font-geist-mono), monospace;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.alumni-archive__institution--snu {
+  background: rgba(15, 62, 137, 0.08);
+  border: 1px solid rgba(15, 62, 137, 0.3);
+  color: #0f3e89 !important;
+}
+
+.alumni-archive__institution--utah {
+  background: rgba(204, 0, 0, 0.08);
+  border: 1px solid rgba(204, 0, 0, 0.3);
+  color: #cc0000 !important;
+}
+
+.alumni-archive__credential {
+  color: rgba(35, 35, 35, .68) !important;
 }
 
 @media (max-width: 900px) {
@@ -5089,6 +5154,7 @@ body {
   .alumni-archive__list p {
     grid-column: 2;
     text-align: left;
+    justify-content: space-between;
   }
 }
 

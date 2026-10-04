@@ -31,22 +31,25 @@ export const people: Person[] = [
   { id: "rokdam-choi", name: "Rokdam Choi", role: "Developer", displayRole: "Developer", focus: "", projects: [], bio: "", image: "/people/Rokdam_Choi.jpg" },
 ];
 
+export type AlumnusAffiliation = "SNU" | "University of Utah";
+
 export type Alumnus = {
   id: string;
   name: string;
   credential: string;
+  affiliation: AlumnusAffiliation;
 };
 
 export const alumni: Alumnus[] = [
-  { id: "soo-ah-cho", name: "Soo-ah Cho", credential: "M.S. Student" },
-  { id: "byungwook-oh", name: "Byungwook Oh", credential: "M.S. Student" },
-  { id: "wongyung-choi", name: "Wongyung Choi", credential: "Undergraduate Researcher" },
-  { id: "ingi-song", name: "Ingi Song", credential: "Undergraduate Student" },
-  { id: "nahyun-kim", name: "Nahyun Kim", credential: "Undergraduate Student" },
-  { id: "seonggyun-han", name: "Seonggyun Han", credential: "M.S. Student" },
-  { id: "youngjoo-jin", name: "Youngjoo Jin", credential: "MD, Ph.D" },
-  { id: "habtamu-minassie-aycheh", name: "Habtamu Minassie Aycheh", credential: "Ph.D" },
-  { id: "john-chamberlin", name: "John Chamberlin", credential: "Ph.D" },
-  { id: "juhyun-park", name: "Juhyun Park", credential: "MSc. Student" },
-  { id: "jaehang-shin", name: "Jaehang Shin", credential: "MSc. Student" },
+  { id: "soo-ah-cho", name: "Soo-ah Cho", credential: "M.S. Student", affiliation: "SNU" },
+  { id: "byungwook-oh", name: "Byungwook Oh", credential: "M.S. Student", affiliation: "SNU" },
+  { id: "wongyung-choi", name: "Wongyung Choi", credential: "Undergraduate Researcher", affiliation: "SNU" },
+  { id: "ingi-song", name: "Ingi Song", credential: "Undergraduate Student", affiliation: "SNU" },
+  { id: "nahyun-kim", name: "Nahyun Kim", credential: "Undergraduate Student", affiliation: "SNU" },
+  { id: "seonggyun-han", name: "Seonggyun Han", credential: "M.S. Student", affiliation: "University of Utah" },
+  { id: "youngjoo-jin", name: "Youngjoo Jin", credential: "MD, Ph.D", affiliation: "University of Utah" },
+  { id: "habtamu-minassie-aycheh", name: "Habtamu Minassie Aycheh", credential: "Ph.D", affiliation: "University of Utah" },
+  { id: "john-chamberlin", name: "John Chamberlin", credential: "Ph.D", affiliation: "University of Utah" },
+  { id: "juhyun-park", name: "Juhyun Park", credential: "MSc. Student", affiliation: "University of Utah" },
+  { id: "jaehang-shin", name: "Jaehang Shin", credential: "MSc. Student", affiliation: "University of Utah" },
 ];

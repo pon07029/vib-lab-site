@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
-import { render, screen, within } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { expect, it } from "vitest";
 
 import PeoplePage from "../app/people/page";
@@ -36,6 +36,39 @@ it("renders Alumni as a separate archive between the directory and Join", () => 
     expect(rowScreen.getByText(alumnus.credential, { exact: false })).toBeInTheDocument();
     expect(rowScreen.getByText(String(index + 1).padStart(2, "0"))).toBeInTheDocument();
   });
+});
+
+it("filters alumni by affiliation (SNU and University of Utah)", () => {
+  render(<PeoplePage />);
+
+  const archive = screen.getByRole("region", { name: "Alumniarchive" });
+  const archiveScreen = within(archive);
+
+  // Filter Utah alumni
+  const utahButton = screen.getByRole("button", { name: "University of Utah alumni" });
+  fireEvent.click(utahButton);
+
+  expect(archiveScreen.getByText("06 RECORDS")).toBeInTheDocument();
+  expect(archiveScreen.getByText("Seonggyun Han")).toBeInTheDocument();
+  expect(archiveScreen.getByText("Jaehang Shin")).toBeInTheDocument();
+  expect(archiveScreen.queryByText("Soo-ah Cho")).not.toBeInTheDocument();
+
+  // Filter SNU alumni
+  const snuButton = screen.getByRole("button", { name: "SNU alumni" });
+  fireEvent.click(snuButton);
+
+  expect(archiveScreen.getByText("05 RECORDS")).toBeInTheDocument();
+  expect(archiveScreen.getByText("Soo-ah Cho")).toBeInTheDocument();
+  expect(archiveScreen.getByText("Nahyun Kim")).toBeInTheDocument();
+  expect(archiveScreen.queryByText("Seonggyun Han")).not.toBeInTheDocument();
+
+  // Reset to all
+  const allButton = screen.getByRole("button", { name: "All alumni" });
+  fireEvent.click(allButton);
+
+  expect(archiveScreen.getByText("11 RECORDS")).toBeInTheDocument();
+  expect(archiveScreen.getByText("Soo-ah Cho")).toBeInTheDocument();
+  expect(archiveScreen.getByText("Seonggyun Han")).toBeInTheDocument();
 });
 
 it("renders each member's provided portrait", () => {
